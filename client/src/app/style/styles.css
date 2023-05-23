@@ -1,0 +1,43 @@
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Navigation */
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8d48ac;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .button {
+    display: flex;
+  }
+  
+  .button button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #087b9b;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Body */
+  .body {
+    margin-top: 20px;
+  }
+  
+  .greeting {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
