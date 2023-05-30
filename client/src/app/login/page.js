@@ -1,6 +1,5 @@
 "use client"
 import Link from 'next/link';
-import '../style/login.css';
 import {useState} from 'react'; 
 
 
@@ -13,12 +12,15 @@ const Login = () => {
   const {email, password} = formData;
 
   const handleChange = (e) => {
+
+
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    console.log(setFormData  )
   };
 
   const handleSubmit = async(e) => {
     e.preventDefault();
-
+ 
     try {
       const response = await fetch('/login', {
         method: 'POST',
