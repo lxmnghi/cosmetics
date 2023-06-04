@@ -1,7 +1,7 @@
 "use client"
 import Link from 'next/link';
 import {useState} from 'react'; 
-
+import '../style/login.css'
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -10,7 +10,8 @@ const Login = () => {
      });
   
   const {email, password} = formData;
-
+const  
+  
   const handleChange = (e) => {
 
 
@@ -69,7 +70,8 @@ const Login = () => {
       </span>
     </div>
     </form>
-  );
-};
+    );
+
+  };
 
 export default Login;
